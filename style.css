@@ -5,7 +5,8 @@ body{
 .top{
     height: 135vh;
     width: 100%;
-    background-color: #191919;
+    
+    background-image: linear-gradient(to right, black, gray );
 }
 .logo{ 
     font-size: 30px;
@@ -72,7 +73,39 @@ span{
 
 
 
-                       /* *************about me************ */
+                       /* *************About me************ */
 
-
-
+.About{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url(images/shapes/7.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.About img{
+    width: 25%;
+    padding-top: 50px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+.content-area{
+    width: 40%;
+    padding-right: 8%;
+    padding-left: 8%;
+}
+.content-area p{
+    margin-left: 7%;
+    letter-spacing: 1px;
+    font-size: 18px;
+    margin-bottom: 80px;
+    font-weight: 700;
+}
+.content-area h1{
+    font-size: 25px;
+    margin-left: 8%;
+}
+.content-area a{
+    margin-left: 8%;
+}
