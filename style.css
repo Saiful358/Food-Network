@@ -1,0 +1,78 @@
+body{
+    margin: 0;
+    font-family: 'Yatra One', cursive;
+}
+.top{
+    height: 135vh;
+    width: 100%;
+    background-color: #191919;
+}
+.logo{ 
+    font-size: 30px;
+    font-family: 'Lobster', cursive;
+    color: white;
+}
+span{
+    color: rgb(25, 161, 214);
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+.nav-bar ul{
+    display: inline;
+}
+.nav-bar ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    padding-right: 20px;
+}
+.nav-bar ul li{
+    list-style: none;
+    display: inline-block;
+    padding-right: 15px;
+}
+.btn{
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    background-image: linear-gradient(orange, rgb(235, 74, 46));
+    padding: 8px 25px;
+    border-radius: 40px;
+    box-shadow: 8px 8px 10px black;
+
+}
+.main-area{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.content h1{
+    color: white;
+    margin-left: 7%;
+    font-size: 35px;
+    font-weight: 700;
+}
+.content p{
+    margin-left: 7%;
+    color: #fcfc;
+    letter-spacing: 1px;
+    font-size: 18px;
+}
+.content a{
+    margin-left: 7%;
+}
+
+
+
+                       /* *************about me************ */
+
+
+
