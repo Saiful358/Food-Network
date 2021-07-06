@@ -68,7 +68,10 @@ span{
     font-size: 18px;
 }
 .content a{
-    margin-left: 7%;
+    margin-top: 100px;
+    position: absolute;
+    margin-top: 2%;
+    margin-left: 3%;
 }
 
 
@@ -111,8 +114,38 @@ span{
     box-shadow: 5px 5px 20px #e15f41;
 }
 
-
-
+/* <!-- ************chef**************** --> */
+.about-chef{
+    width: 100%;
+    height: 600px;
+   background-image: url(images/food/Project\ Cover4.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.hero{
+    background-color: #191919;
+    text-align: center;
+    height: 600px;
+    width: 40%;
+    float: left;
+    margin-left: 30%;
+}
+.child{
+    padding-top: 2%;
+    color: white;
+}
+.child h1{
+    font-size: 35px;
+}
+.child h2{
+    font-size: 25px;
+}
+.child p{
+    color: #fcfc;
+    letter-spacing: 1px;
+    font-size: 18px;
+}
 
 /* <!-- ***************box  side*********************** --> */
 .text {
@@ -138,6 +171,7 @@ span{
 }
 .card {
     width: 28%;
+    color: rgb(110, 99, 99);
     border-radius: 20px;
     padding: 1.5%;
     box-shadow: 5px 5px 10px 10px rgb(247, 244, 244);
@@ -157,7 +191,7 @@ span{
     margin-left: 150px;
     
 }
-.bal{
+.Channel{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -167,6 +201,36 @@ span{
     padding: 50px 80px;
     box-shadow: 5px 5px 10px 10px rgb(241, 236, 236);
     
+}
+/* <!-- ****************** Food Delivery************************** --> */
+.Food-Delivery{
+    padding: 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url(images/shapes/Frame\ 59.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.Food-Delivery h1{
+    margin-left: 7%;
+    font-size: 35px;
+    font-weight: 700;
+}
+.Food-Delivery p{
+    color: rgb(145, 124, 124);
+    letter-spacing: 1px;
+    font-size: 18px;
+    font-weight: 600;
+}
+.Delivery-boy{
+    padding-right: 8%;
+}
+.content-side a{
+    position: absolute;
+    margin-top: 2%;
+    box-shadow: 5px 5px 20px #e15f41;
 }
 
 
