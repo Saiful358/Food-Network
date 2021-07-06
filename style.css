@@ -108,6 +108,7 @@ span{
 }
 .content-area a{
     margin-left: 8%;
+    box-shadow: 5px 5px 20px #e15f41;
 }
 
 
@@ -135,21 +136,53 @@ span{
     padding-left: 5%;
     padding-right: 5%;
 }
-.child-box {
+.card {
     width: 28%;
     border-radius: 20px;
     padding: 1.5%;
-    box-shadow:10px 10px 20px #8e93aa;
+    box-shadow: 5px 5px 10px 10px rgb(247, 244, 244);
 }
-.child-box h1{
+.card h1{
     font-size: 30px;
 }
-.child-box p{
+.card p{
     letter-spacing: 1px;
     font-size: 18px;
     font-weight: 600;
 }
 
+/* ****************social media******************* */
+.social-media{
+    padding: 80px 50px;
+    margin-left: 150px;
+    
+}
+.bal{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    width: 70%;
+    border-radius: 20px;
+    padding: 50px 80px;
+    box-shadow: 5px 5px 10px 10px rgb(241, 236, 236);
+    
+}
 
 
+/* ***************footer********************* */
 
+footer{
+    background-color: #0B0E17;
+    height: 200px;
+    text-align: center;
+    padding-top: 50px;
+}
+footer h1{
+    color: white;
+}
+footer p{
+    color: #fcfc;
+    letter-spacing: 1px;
+    font-size: 18px;
+}
